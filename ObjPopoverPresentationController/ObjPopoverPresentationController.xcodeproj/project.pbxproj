@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC142971BDE2E1400FF6CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC142961BDE2E1400FF6CEF /* main.m */; };
+		2AC1429A1BDE2E1400FF6CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC142991BDE2E1400FF6CEF /* AppDelegate.m */; };
+		2AC1429D1BDE2E1400FF6CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1429C1BDE2E1400FF6CEF /* ViewController.m */; };
+		2AC142A01BDE2E1400FF6CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1429E1BDE2E1400FF6CEF /* Main.storyboard */; };
+		2AC142A21BDE2E1400FF6CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC142A11BDE2E1400FF6CEF /* Assets.xcassets */; };
+		2AC142A51BDE2E1400FF6CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC142A31BDE2E1400FF6CEF /* LaunchScreen.storyboard */; };
+		2AC142B01BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC142AF1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.m */; };
+		2AC142BB1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC142BA1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.m */; };
+		2AC142CA1BDE2E7A00FF6CEF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC142C91BDE2E7A00FF6CEF /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC142AC1BDE2E1400FF6CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC1428A1BDE2E1400FF6CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC142911BDE2E1400FF6CEF;
+			remoteInfo = ObjPopoverPresentationController;
+		};
+		2AC142B71BDE2E1400FF6CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC1428A1BDE2E1400FF6CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC142911BDE2E1400FF6CEF;
+			remoteInfo = ObjPopoverPresentationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC142921BDE2E1400FF6CEF /* ObjPopoverPresentationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjPopoverPresentationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC142961BDE2E1400FF6CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC142981BDE2E1400FF6CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AC142991BDE2E1400FF6CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AC1429B1BDE2E1400FF6CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AC1429C1BDE2E1400FF6CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC1429F1BDE2E1400FF6CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC142A11BDE2E1400FF6CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC142A41BDE2E1400FF6CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC142A61BDE2E1400FF6CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC142AB1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjPopoverPresentationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC142AF1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjPopoverPresentationControllerTests.m; sourceTree = "<group>"; };
+		2AC142B11BDE2E1400FF6CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC142B61BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjPopoverPresentationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC142BA1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjPopoverPresentationControllerUITests.m; sourceTree = "<group>"; };
+		2AC142BC1BDE2E1400FF6CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC142C81BDE2E7A00FF6CEF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2AC142C91BDE2E7A00FF6CEF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC1428F1BDE2E1400FF6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142A81BDE2E1400FF6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142B31BDE2E1400FF6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC142891BDE2E1400FF6CEF = {
+			isa = PBXGroup;
+			children = (
+				2AC142941BDE2E1400FF6CEF /* ObjPopoverPresentationController */,
+				2AC142AE1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests */,
+				2AC142B91BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests */,
+				2AC142931BDE2E1400FF6CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC142931BDE2E1400FF6CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC142921BDE2E1400FF6CEF /* ObjPopoverPresentationController.app */,
+				2AC142AB1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.xctest */,
+				2AC142B61BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC142941BDE2E1400FF6CEF /* ObjPopoverPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				2AC142981BDE2E1400FF6CEF /* AppDelegate.h */,
+				2AC142991BDE2E1400FF6CEF /* AppDelegate.m */,
+				2AC1429B1BDE2E1400FF6CEF /* ViewController.h */,
+				2AC1429C1BDE2E1400FF6CEF /* ViewController.m */,
+				2AC1429E1BDE2E1400FF6CEF /* Main.storyboard */,
+				2AC142C81BDE2E7A00FF6CEF /* TableViewController.h */,
+				2AC142C91BDE2E7A00FF6CEF /* TableViewController.m */,
+				2AC142A11BDE2E1400FF6CEF /* Assets.xcassets */,
+				2AC142A31BDE2E1400FF6CEF /* LaunchScreen.storyboard */,
+				2AC142A61BDE2E1400FF6CEF /* Info.plist */,
+				2AC142951BDE2E1400FF6CEF /* Supporting Files */,
+			);
+			path = ObjPopoverPresentationController;
+			sourceTree = "<group>";
+		};
+		2AC142951BDE2E1400FF6CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AC142961BDE2E1400FF6CEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AC142AE1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC142AF1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.m */,
+				2AC142B11BDE2E1400FF6CEF /* Info.plist */,
+			);
+			path = ObjPopoverPresentationControllerTests;
+			sourceTree = "<group>";
+		};
+		2AC142B91BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC142BA1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.m */,
+				2AC142BC1BDE2E1400FF6CEF /* Info.plist */,
+			);
+			path = ObjPopoverPresentationControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC142911BDE2E1400FF6CEF /* ObjPopoverPresentationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC142BF1BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationController" */;
+			buildPhases = (
+				2AC1428E1BDE2E1400FF6CEF /* Sources */,
+				2AC1428F1BDE2E1400FF6CEF /* Frameworks */,
+				2AC142901BDE2E1400FF6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjPopoverPresentationController;
+			productName = ObjPopoverPresentationController;
+			productReference = 2AC142921BDE2E1400FF6CEF /* ObjPopoverPresentationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC142AA1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC142C21BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationControllerTests" */;
+			buildPhases = (
+				2AC142A71BDE2E1400FF6CEF /* Sources */,
+				2AC142A81BDE2E1400FF6CEF /* Frameworks */,
+				2AC142A91BDE2E1400FF6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC142AD1BDE2E1400FF6CEF /* PBXTargetDependency */,
+			);
+			name = ObjPopoverPresentationControllerTests;
+			productName = ObjPopoverPresentationControllerTests;
+			productReference = 2AC142AB1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC142B51BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC142C51BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationControllerUITests" */;
+			buildPhases = (
+				2AC142B21BDE2E1400FF6CEF /* Sources */,
+				2AC142B31BDE2E1400FF6CEF /* Frameworks */,
+				2AC142B41BDE2E1400FF6CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC142B81BDE2E1400FF6CEF /* PBXTargetDependency */,
+			);
+			name = ObjPopoverPresentationControllerUITests;
+			productName = ObjPopoverPresentationControllerUITests;
+			productReference = 2AC142B61BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC1428A1BDE2E1400FF6CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kai Windle";
+				TargetAttributes = {
+					2AC142911BDE2E1400FF6CEF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2AC142AA1BDE2E1400FF6CEF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2AC142911BDE2E1400FF6CEF;
+					};
+					2AC142B51BDE2E1400FF6CEF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2AC142911BDE2E1400FF6CEF;
+					};
+				};
+			};
+			buildConfigurationList = 2AC1428D1BDE2E1400FF6CEF /* Build configuration list for PBXProject "ObjPopoverPresentationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC142891BDE2E1400FF6CEF;
+			productRefGroup = 2AC142931BDE2E1400FF6CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC142911BDE2E1400FF6CEF /* ObjPopoverPresentationController */,
+				2AC142AA1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests */,
+				2AC142B51BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC142901BDE2E1400FF6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC142A51BDE2E1400FF6CEF /* LaunchScreen.storyboard in Resources */,
+				2AC142A21BDE2E1400FF6CEF /* Assets.xcassets in Resources */,
+				2AC142A01BDE2E1400FF6CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142A91BDE2E1400FF6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142B41BDE2E1400FF6CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC1428E1BDE2E1400FF6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC1429D1BDE2E1400FF6CEF /* ViewController.m in Sources */,
+				2AC1429A1BDE2E1400FF6CEF /* AppDelegate.m in Sources */,
+				2AC142971BDE2E1400FF6CEF /* main.m in Sources */,
+				2AC142CA1BDE2E7A00FF6CEF /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142A71BDE2E1400FF6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC142B01BDE2E1400FF6CEF /* ObjPopoverPresentationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC142B21BDE2E1400FF6CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC142BB1BDE2E1400FF6CEF /* ObjPopoverPresentationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC142AD1BDE2E1400FF6CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC142911BDE2E1400FF6CEF /* ObjPopoverPresentationController */;
+			targetProxy = 2AC142AC1BDE2E1400FF6CEF /* PBXContainerItemProxy */;
+		};
+		2AC142B81BDE2E1400FF6CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC142911BDE2E1400FF6CEF /* ObjPopoverPresentationController */;
+			targetProxy = 2AC142B71BDE2E1400FF6CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC1429E1BDE2E1400FF6CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC1429F1BDE2E1400FF6CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC142A31BDE2E1400FF6CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC142A41BDE2E1400FF6CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC142BD1BDE2E1400FF6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AC142BE1BDE2E1400FF6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC142C01BDE2E1400FF6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjPopoverPresentationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC142C11BDE2E1400FF6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjPopoverPresentationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC142C31BDE2E1400FF6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ObjPopoverPresentationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjPopoverPresentationController.app/ObjPopoverPresentationController";
+			};
+			name = Debug;
+		};
+		2AC142C41BDE2E1400FF6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ObjPopoverPresentationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjPopoverPresentationController.app/ObjPopoverPresentationController";
+			};
+			name = Release;
+		};
+		2AC142C61BDE2E1400FF6CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ObjPopoverPresentationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ObjPopoverPresentationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2AC142C71BDE2E1400FF6CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ObjPopoverPresentationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiwindle.ObjPopoverPresentationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ObjPopoverPresentationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC1428D1BDE2E1400FF6CEF /* Build configuration list for PBXProject "ObjPopoverPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC142BD1BDE2E1400FF6CEF /* Debug */,
+				2AC142BE1BDE2E1400FF6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC142BF1BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC142C01BDE2E1400FF6CEF /* Debug */,
+				2AC142C11BDE2E1400FF6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC142C21BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC142C31BDE2E1400FF6CEF /* Debug */,
+				2AC142C41BDE2E1400FF6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC142C51BDE2E1400FF6CEF /* Build configuration list for PBXNativeTarget "ObjPopoverPresentationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC142C61BDE2E1400FF6CEF /* Debug */,
+				2AC142C71BDE2E1400FF6CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC1428A1BDE2E1400FF6CEF /* Project object */;
+}
